@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* Estilização geral */
+body {
+    background-color: #0d0d0d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Estilização dos títulos */
+h1, h2 {
+    color: #00ffff; /* Azul neon */
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+/* Estilização das listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Botões com efeito neon */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    border: 2px solid #00ffff;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #00ffff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito de hover neon */
+.btn:hover {
+    background-color: #00ffff;
+    color: #0d0d0d;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 40px #00ffff;
+    transform: scale(1.1);
+}
+
+/* Imagem de perfil estilizada */
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    margin: 10px 0;
+}
